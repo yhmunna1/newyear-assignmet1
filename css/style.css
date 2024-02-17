@@ -297,19 +297,15 @@ h3 {
 .coming-soon-2024 img {
     margin-top: 30px;
 }
-
 .holidays-sale {
     margin-top: 50px;
     height: 986px;
     margin-bottom: 50px;
-    border-radius: 15px;
 }
-
 
 .holidays-text {
     text-align: center;
 }
-
 
 .holidays-text h4 {
     font-size: 24px;
@@ -317,44 +313,55 @@ h3 {
     color: rgba(7, 2, 17, 1);
 }
 
-
 .holidays-text h1 {
     font-size: 64px;
     font-weight: 900;
     color: black;
 }
 
-
 #holiday {
     color: red;
 }
-
 
 .holidays-text p {
     font-size: 20px;
     font-weight: 500;
     line-height: 32px;
     color: rgb(0, 0, 0, 0.5);
-}
 
+}
 
 .holidays-sale-image {
     position: relative;
-}
 
+}
 
 .holidays-sale-box-image {
     position: absolute;
-    margin: 100px 200px 20px 50px;
-    z-index: 1;
+    margin-top: 100px;
+    z-index: 2;
     width: 674.82px;
     height: 577.96px;
 }
 
+.holidays-sale-fashon-image {
+    position: absolute;
+    margin-left: 890px;
+    margin-top: 121px;
+    z-index: 1;
+}
 
 .holidays-sale-red-image {
     position: absolute;
-    margin-top: 330px;
+    margin-top: 554px;
+    z-index: 0;
+}
+
+.holidays-sale-discound-image {
+    position: absolute;
+    z-index: 4;
+    margin-left: 730px;
+    margin-top: 200px;
 }
 
 .subscribe {
@@ -405,9 +412,9 @@ h3 {
 
 
 footer {
-    width: 1600px;
+    width: 1920px;
     height: 500px;
-    background-color: black;
+    background-color: #070211;
     color: white;
 }
 
@@ -427,7 +434,7 @@ footer {
 
 hr {
     height: 1px;
-    background-color: rgb(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.144);
     border: none;
 }
 
